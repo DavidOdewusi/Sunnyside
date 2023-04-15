@@ -1,8 +1,8 @@
 "use scrict";
 
-const about = document.querySelector(".about-link");
-const service = document.querySelector(".service-link");
-const project = document.querySelector(".project-link");
+const about = document.querySelectorAll(".about-link");
+const service = document.querySelectorAll(".service-link");
+const project = document.querySelectorAll(".project-link");
 const section1 = document.querySelector("#section--1");
 const section2 = document.querySelector("#section--2");
 const section3 = document.querySelector("#section--3");
