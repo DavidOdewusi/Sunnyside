@@ -29,10 +29,16 @@
             <img src="./images/logo.svg" alt="Sunyyside Logo" class="logo" />
           </div>
           <ul class="nav__list">
-            <li class="nav__list-item"><a href="#">About</a></li>
-            <li class="nav__list-item"><a href="#">Service</a></li>
-            <li class="nav__list-item"><a href="#">Project</a></li>
             <li class="nav__list-item">
+              <a class="about-link" href="#">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="service-link" href="#">Service</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="project-link" href="#">Project</a>
+            </li>
+            <li class="nav__list-item btn--contact">
               <button type="button">Contact</button>
             </li>
           </ul>
@@ -43,9 +49,15 @@
             </label>
           </div>
           <ul class="menu">
-            <li class="nav__list-item menu-item"><a href="#">About</a></li>
-            <li class="nav__list-item menu-item"><a href="#">Service</a></li>
-            <li class="nav__list-item menu-item"><a href="#">Project</a></li>
+            <li class="nav__list-item menu-item">
+              <a class="about-link" href="#">About</a>
+            </li>
+            <li class="nav__list-item menu-item">
+              <a class="service-link" href="#">Service</a>
+            </li>
+            <li class="nav__list-item menu-item">
+              <a class="project-link" href="#">Project</a>
+            </li>
             <li class="nav__list-item menu-item">
               <button type="button">Contact</button>
             </li>
@@ -61,7 +73,7 @@
         </div>
       </header>
 
-      <section class="about">
+      <section class="about" id="section--1">
         <div class="about__box">
           <div class="about__text">
             <h2 class="about__heading heading">Transform your brand</h2>
@@ -109,6 +121,9 @@
             </button>
           </div>
         </div>
+      </section>
+
+      <section class="service" id="section--2">
         <div class="about__box">
           <div class="about__pg">
             <div class="about__pgimg-box">
@@ -177,7 +192,7 @@
         </div>
       </section>
 
-      <section class="gallery">
+      <section class="gallery" id="section--3">
         <img
           src="./images/desktop/image-gallery-milkbottles.jpg"
           alt="Milk Bottles"
@@ -205,9 +220,15 @@
           />
         </div>
         <ul class="footer__nav">
-          <li class="footer__nav-item"><a href="#">About</a></li>
-          <li class="footer__nav-item"><a href="#">Service</a></li>
-          <li class="footer__nav-item"><a href="#">Projects</a></li>
+          <li class="footer__nav-item">
+            <a class="about-link" href="#">About</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="service-link" href="#">Service</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="project-link" href="#">Projects</a>
+          </li>
         </ul>
         <ul class="socials">
           <li class="facebook">
@@ -278,6 +299,8 @@
   Projects
   Contact 
 -->
+
+    <script src="./script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
