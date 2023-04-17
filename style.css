@@ -84,10 +84,11 @@ nav {
 }
 
 .hero__text {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 900;
   margin-bottom: 7rem;
   letter-spacing: 0.8rem;
+  text-transform: uppercase;
 }
 
 .hero__img {
@@ -111,7 +112,7 @@ input[type="checkbox"]:checked ~ .menu {
 }
 
 .menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   position: absolute;
@@ -416,7 +417,7 @@ footer {
   }
 
   .hero__text {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .nav__list {
@@ -469,7 +470,7 @@ footer {
   }
 
   .hero__text {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .socials > * {
