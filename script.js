@@ -15,12 +15,5 @@ links.forEach((e) => {
 });
 
 arrowDown.addEventListener("click", function (e) {
-  const s1cord = section1.getBoundingClientRect();
-  console.log(s1cord);
-  window.scrollTo({
-    left: s1cord.left + pageXOffset,
-    top: s1cord.top + pageYOffset,
-    behavior: "smooth",
-  });
-  //   section2.scrollIntoView({ behavior: "smooth" });
+  section1.scrollIntoView({ behavior: "smooth" });
 });
