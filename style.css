@@ -56,7 +56,7 @@ nav {
 }
 
 .nav__list-item:not(:last-child) {
-  margin-right: 3rem;
+  margin-right: 6rem;
 }
 
 .nav__list-item button {
